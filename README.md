@@ -1,6 +1,6 @@
 # Azure Quantum Computing Repository
 
-Welcome to a centralized, ever-expanding repository of Q# programs built using the Microsoft Quantum Development Kit (QDK). This collection is designed to support a wide range of quantum computing use cases—from randomness and entanglement to advanced simulations and algorithmic experiments.
+Welcome to a centralized, ever-expanding repository of Q# programs built using the Microsoft Quantum Development Kit (QDK). This collection is designed to support a wide range of quantum computing use cases - from randomness and entanglement to advanced simulations and algorithmic experiments.
 
 ## 🔍 Purpose
 
