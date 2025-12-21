@@ -23,6 +23,7 @@ As the repository grows, you may use tags, folders, or naming conventions to org
 - `Skewed_Random_Bit_Generator.qs`: Creates a biased superposition state
 - `UniformSuperposition_Measurement.qs`: 3‑qubit superposition and measurement
 - `StepwiseSuperposition_Measurement.qs`: Sequential measurement of qubits in superposition
+- `Entangled_Qubits_with_Pauli_Z_gate.qs`: Adding Pauli-Z gate to Bell state
 - `Main.qs`: Entry point for executing selected operations
 
 ## 🚀 Getting Started
