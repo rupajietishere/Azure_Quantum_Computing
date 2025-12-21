@@ -33,36 +33,51 @@ This folder contains Q# programs that generate the four maximally entangled **Be
 
 ### 📂 Files
 
-BellStates/ ├── PhiPlus.qs      # |Φ⁺⟩ = (|00⟩ + |11⟩)/√2 ├── PhiMinus.qs     # |Φ⁻⟩ = (|00⟩ - |11⟩)/√2 ├── PsiPlus.qs      # |ψ⁺⟩ = (|01⟩ + |10⟩)/√2 ├── PsiMinus.qs     # |ψ⁻⟩ = (|01⟩ - |10⟩)/√2
+BellStates/
+├── PhiPlus.qs      # |Φ⁺⟩ = (|00⟩ + |11⟩)/√2
+├── PhiMinus.qs     # |Φ⁻⟩ = (|00⟩ - |11⟩)/√2
+├── PsiPlus.qs      # |ψ⁺⟩ = (|01⟩ + |10⟩)/√2
+├── PsiMinus.qs     # |ψ⁻⟩ = (|01⟩ - |10⟩)/√2
 
 ### 🧪 State Definitions and Circuits
 
 #### PhiPlusBellState.qs
-\[
-|\Phi^+\rangle = \tfrac{1}{\sqrt{2}}(|00\rangle + |11\rangle)
-\]
-q1: ──H───■── │ q2: ──────X──
+State:
+|\Phi ^+\rangle =\frac{1}{\sqrt{2}}(|00\rangle +|11\rangle )
 
+Circuit:
+q1: ──H────■──
+           │
+q2: ───────X──
 
 #### PhiMinusBellState.qs
-\[
-|\Phi^-\rangle = \tfrac{1}{\sqrt{2}}(|00\rangle - |11\rangle)
-\]
-q1: ──H───Z──■── │ q2: ─────────X──
+State:
+|\Phi ^-\rangle =\frac{1}{\sqrt{2}}(|00\rangle -|11\rangle )
+
+Circuit:
+q1: ──H──Z──■──
+            │
+q2: ────────X──
 
 
 #### PsiPlusBellState.qs
-\[
-|\psi^+\rangle = \tfrac{1}{\sqrt{2}}(|01\rangle + |10\rangle)
-\]
-q1: ──H───X──■── │ q2: ─────────X──
+State:
+|\psi ^+\rangle =\frac{1}{\sqrt{2}}(|01\rangle +|10\rangle )
+
+Circuit:
+q1: ──H──X──■──
+            │
+q2: ───────X──
 
 
 #### PsiMinusBellState.qs
-\[
-|\psi^-\rangle = \tfrac{1}{\sqrt{2}}(|01\rangle - |10\rangle)
-\]
-q1: ──H───Z──■── │ q2: ───X─────X──
+State:
+|\psi ^-\rangle =\frac{1}{\sqrt{2}}(|01\rangle -|10\rangle )
+
+Circuit:
+q1: ──H──Z──X──■──
+               │
+q2: ───────────X──
 
 
 ### ⚙️ Running with QDK
