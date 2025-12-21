@@ -1,4 +1,4 @@
-# Azure Quantum Computing Repository
+# 🌌 Azure Quantum Computing Repository
 
 Welcome to a centralized, ever-expanding repository of Q# programs built using the Microsoft Quantum Development Kit (QDK). This collection is designed to support a wide range of quantum computing use cases - from randomness and entanglement to advanced simulations and algorithmic experiments.
 
@@ -33,7 +33,7 @@ This folder contains Q# programs that generate the four maximally entangled **Be
 
 ### 📂 Files
 
-<img width="852" height="370" alt="BellStates" src="https://github.com/user-attachments/assets/2d954fad-8f06-4537-bbc0-e1c940357062" />
+<img width="846" height="367" alt="image" src="https://github.com/user-attachments/assets/89280620-5e1f-4e10-9e8a-678a824adc65" />
 
 
 ### 🧪 State Definitions and Circuits
@@ -92,7 +92,7 @@ Since this repo uses QDK directly (no .NET wrapper):
 %simulate Main
 ```
 
-3. Use DumpOperation() for textual gate sequences or %trace for circuit diagrams.
+3. Use `DumpOperation()` for textual gate sequences or %trace for circuit diagrams.
 
 ## 🚀 Getting Started
 
