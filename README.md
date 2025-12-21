@@ -37,28 +37,28 @@ BellStates/ ├── PhiPlus.qs      # |Φ⁺⟩ = (|00⟩ + |11⟩)/√2 ├�
 
 ### 🧪 State Definitions and Circuits
 
-#### PhiPlus.qs
+#### PhiPlusBellState.qs
 \[
 |\Phi^+\rangle = \tfrac{1}{\sqrt{2}}(|00\rangle + |11\rangle)
 \]
 q1: ──H───■── │ q2: ──────X──
 
 
-#### PhiMinus.qs
+#### PhiMinusBellState.qs
 \[
 |\Phi^-\rangle = \tfrac{1}{\sqrt{2}}(|00\rangle - |11\rangle)
 \]
 q1: ──H───Z──■── │ q2: ─────────X──
 
 
-#### PsiPlus.qs
+#### PsiPlusBellState.qs
 \[
 |\psi^+\rangle = \tfrac{1}{\sqrt{2}}(|01\rangle + |10\rangle)
 \]
 q1: ──H───X──■── │ q2: ─────────X──
 
 
-#### PsiMinus.qs
+#### PsiMinusBellState.qs
 \[
 |\psi^-\rangle = \tfrac{1}{\sqrt{2}}(|01\rangle - |10\rangle)
 \]
@@ -80,4 +80,31 @@ Since this repo uses QDK directly (no .NET wrapper):
 
 3. Use DumpOperation() for textual gate sequences or %trace for circuit diagrams.
 
-   
+## 🚀 Getting Started
+
+1. 🛠️ Install the [Microsoft Quantum Development Kit](https://learn.microsoft.com/en-us/azure/quantum/install-overview-qdk)  
+2. 💻 Open any `.qs` file in Visual Studio Code with the Q# extension  
+3. ▶️ Run the entry point operation using the internal debug console  
+
+---
+
+## 🧰 Recommended Workflow
+
+- 🏷️ Use descriptive filenames for each `.qs` file  
+- 🧩 Keep each operation modular and self-contained  
+- 📝 Document unusual logic or gate combinations inline  
+- 📜 Use version control commit messages to track conceptual changes  
+
+---
+
+## 📚 Learning Resources
+
+- 📖 [Microsoft Quantum Docs](https://learn.microsoft.com/en-us/azure/quantum/)  
+- 📘 [Q# Language Reference](https://learn.microsoft.com/en-us/quantum/quantum-qr-intro)  
+- 🎓 [Quantum Katas](https://github.com/microsoft/QuantumKatas)  
+
+---
+
+## 📄 License
+
+MIT   
