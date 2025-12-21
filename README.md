@@ -92,7 +92,7 @@ Since this repo uses QDK directly (no .NET wrapper):
 %simulate Main
 ```
 
-3. Use `DumpOperation()` for textual gate sequences or %trace for circuit diagrams.
+3. Use `DumpOperation()` for textual gate sequences or `%trace` for circuit diagrams.
 
 ## 🚀 Getting Started
 
