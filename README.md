@@ -87,8 +87,10 @@ Since this repo uses QDK directly (no .NET wrapper):
    
 2. Run in Jupyter Notebook (IQ# kernel):
    
-`%load_qsharp BellStates/PhiPlus.qs`
-`%simulate Main`
+```qsharp
+%load_qsharp BellStates/PhiPlus.qs
+%simulate Main
+```
 
 3. Use DumpOperation() for textual gate sequences or %trace for circuit diagrams.
 
