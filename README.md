@@ -33,12 +33,7 @@ This folder contains Q# programs that generate the four maximally entangled **Be
 
 ### 📂 Files
 
-| File Name         | Bell State Equation                              |
-|-------------------|--------------------------------------------------|
-| `PhiPlus.qs`      | \(|\Phi^+\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)\) |
-| `PhiMinus.qs`     | \(|\Phi^-\rangle = \frac{1}{\sqrt{2}}(|00\rangle - |11\rangle)\) |
-| `PsiPlus.qs`      | \(|\psi^+\rangle = \frac{1}{\sqrt{2}}(|01\rangle + |10\rangle)\) |
-| `PsiMinus.qs`     | \(|\psi^-\rangle = \frac{1}{\sqrt{2}}(|01\rangle - |10\rangle)\) |
+<img width="852" height="370" alt="BellStates" src="https://github.com/user-attachments/assets/2d954fad-8f06-4537-bbc0-e1c940357062" />
 
 
 ### 🧪 State Definitions and Circuits
