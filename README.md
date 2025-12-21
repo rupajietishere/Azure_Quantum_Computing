@@ -33,11 +33,13 @@ This folder contains Q# programs that generate the four maximally entangled **Be
 
 ### 📂 Files
 
-BellStates/
-├── PhiPlus.qs      # |Φ⁺⟩ = (|00⟩ + |11⟩)/√2
-├── PhiMinus.qs     # |Φ⁻⟩ = (|00⟩ - |11⟩)/√2
-├── PsiPlus.qs      # |ψ⁺⟩ = (|01⟩ + |10⟩)/√2
-├── PsiMinus.qs     # |ψ⁻⟩ = (|01⟩ - |10⟩)/√2
+| File Name         | Bell State Equation                              |
+|-------------------|--------------------------------------------------|
+| `PhiPlus.qs`      | \(|\Phi^+\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)\) |
+| `PhiMinus.qs`     | \(|\Phi^-\rangle = \frac{1}{\sqrt{2}}(|00\rangle - |11\rangle)\) |
+| `PsiPlus.qs`      | \(|\psi^+\rangle = \frac{1}{\sqrt{2}}(|01\rangle + |10\rangle)\) |
+| `PsiMinus.qs`     | \(|\psi^-\rangle = \frac{1}{\sqrt{2}}(|01\rangle - |10\rangle)\) |
+
 
 ### 🧪 State Definitions and Circuits
 
