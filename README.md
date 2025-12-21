@@ -21,6 +21,7 @@ As the repository grows, you may use tags, folders, or naming conventions to org
 - `GenerateRandomBit.qs`: Quantum random number generator using Hadamard gates
 - `Entangle_two_Qbits.qs`: Demonstrates entanglement using Hadamard and CNOT
 - `Skewed_Random_Bit_Generator.qs`: Creates a biased superposition state
+- `UniformSuperposition_Measurement.qs`: 3‑qubit superposition and measurement
 - `Main.qs`: Entry point for executing selected operations
 
 ## 🚀 Getting Started
